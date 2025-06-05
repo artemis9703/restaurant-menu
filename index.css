@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+    background: #000000;
+    color: #ffffff;
+}
+.menu {
+    width: 80%;
+    background-color: #44709b;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+.item p {
+    display: inline-block;
+}
+.price {
+    text-align: right;
+    width: 25%;
+}
+.food {
+    text-align: left;
+    width: 75%;
+}
