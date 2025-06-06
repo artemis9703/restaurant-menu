@@ -2,6 +2,7 @@ body {
     text-align: center;
     background: #000000;
     color: #ffffff;
+    padding: 20px;
 }
 .menu {
     width: 80%;
@@ -13,6 +14,8 @@ body {
 }
 .item p {
     display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .price {
     text-align: right;
@@ -21,4 +24,23 @@ body {
 .food {
     text-align: left;
     width: 75%;
+}
+.orpheus {
+    max-width: 15%;
+}
+hr {
+    border: 2px solid white;
+}
+.wheel {
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    height: 55vw;
+    width: 55vw;
+    max-width: 500px;
+    max-height: 500px;
+    animation-name: wheel;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
