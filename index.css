@@ -3,6 +3,7 @@ body {
     background: #000000;
     color: #ffffff;
     padding: 20px;
+    background-image: url("https://imgs.search.brave.com/9BYOi6zq8uZfpqK-P6cCaXexdkUewdIYWYQ0xg_NTSQ/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTM5/NDQ0Nzc3OS9waG90/by9zdGFyZmllbGQu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PTI4N3RERi02TEpH/aVVjQ2lJNHVEeXVD/WlZPeU9EMzZjejBt/QlBOdWp4U2s9");
 }
 .menu {
     width: 80%;
@@ -112,7 +113,7 @@ hr {
         transform: rotate(0deg);
     }
     100% {
-        transform: rotate(-350deg);
+        transform: rotate(-360deg);
     }
 }
 .boba {
@@ -125,7 +126,7 @@ hr {
     width: 100%;
 }
 .hackaccino{
-    width: 50%;
+    width: 55%;
 }
 .bakebuild {
     width: 95%;
